@@ -1,0 +1,17 @@
+{
+    "model": "YOLO11n pretrained COCO weights",
+    "custom_training": false,
+    "dataset_images": 100,
+    "annotated_images_evaluated": 89,
+    "ground_truth_objects": 117,
+    "predicted_objects": 94,
+    "true_positives": 76,
+    "false_positives": 18,
+    "false_negatives": 41,
+    "confidence_threshold": 0.25,
+    "iou_threshold": 0.5,
+    "precision": 0.8085,
+    "recall": 0.6496,
+    "f1_score": 0.7204,
+    "simulated_operations": 94
+}
