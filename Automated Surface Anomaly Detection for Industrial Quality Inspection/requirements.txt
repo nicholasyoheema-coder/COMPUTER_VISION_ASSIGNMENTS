@@ -1,0 +1,5 @@
+ultralytics==8.4.197
+pandas
+numpy
+opencv-python
+matplotlib
