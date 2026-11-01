@@ -1,0 +1,59 @@
+{
+    "project": "Vision-Based Robot Navigation",
+    "model": "YOLO11n",
+    "model_parameters": 2594715,
+    "training": {
+        "epochs_completed": 5,
+        "maximum_epochs": 5,
+        "training_fraction": 0.2,
+        "training_images_used": 3837,
+        "validation_images": 3511,
+        "image_size": 640,
+        "batch_size": 16,
+        "optimizer": "AdamW (automatically selected)",
+        "gpu": "NVIDIA Tesla T4",
+        "seed": 42,
+        "dataset_classes": 25
+    },
+    "validation": {
+        "images": 3511,
+        "instances": 5572,
+        "precision": 0.792,
+        "recall": 0.348,
+        "mAP50": 0.391,
+        "mAP50_95": 0.276
+    },
+    "independent_test": {
+        "images": 1629,
+        "instances": 2372,
+        "precision": 0.7724,
+        "recall": 0.3365,
+        "mAP50": 0.4006,
+        "mAP50_95": 0.286,
+        "preprocess_ms_per_image": 1.2,
+        "inference_ms_per_image": 4.8,
+        "postprocess_ms_per_image": 1.5
+    },
+    "navigation_demonstration": {
+        "sample_images": 8,
+        "forward": 1,
+        "turn_left": 0,
+        "turn_right": 0,
+        "stop": 7,
+        "block_threshold": 0.1,
+        "tie_margin": 0.03,
+        "navigation_accuracy": null
+    },
+    "dataset": {
+        "images": 24326,
+        "classes": 25,
+        "bounding_boxes_after_conversion": 40195,
+        "empty_annotation_files": 99,
+        "invalid_converted_annotations": 0,
+        "train_images": 19186,
+        "validation_images": 3511,
+        "test_images": 1629,
+        "polygon_annotations_converted": 5138,
+        "boundary_boxes_clipped": 190
+    }
+}

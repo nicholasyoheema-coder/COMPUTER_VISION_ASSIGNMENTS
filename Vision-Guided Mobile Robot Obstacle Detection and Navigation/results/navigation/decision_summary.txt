@@ -1,0 +1,3 @@
+Final Navigation Decision Summary
+STOP: 7
+FORWARD: 1

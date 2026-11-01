@@ -1,0 +1,9 @@
+image,detected_objects,main_class,average_confidence
+IMG_20496.jpg,1,Manhole,0.8072
+IMG_19415.jpg,1,Bench,0.8789
+IMG_19238.jpg,2,Car,0.5267
+IMG_20705.jpg,1,Stairs,0.3531
+IMG_19750.jpg,1,Car,0.8656
+IMG_19688.jpg,2,Car,0.6713
+IMG_19644.jpg,1,Car,0.8963
+IMG_19472.jpg,3,Tree,0.5359
