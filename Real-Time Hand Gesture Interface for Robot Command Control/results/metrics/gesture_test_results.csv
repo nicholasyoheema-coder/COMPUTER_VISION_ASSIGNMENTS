@@ -1,0 +1,6 @@
+image,actual_gesture,predicted_gesture,confidence,correct,robot_command
+images.jpeg,Open_Palm,Open_Palm,0.6034,True,STOP
+images-2.jpeg,Closed_Fist,Closed_Fist,0.9108,True,MOVE BACKWARD
+images-3.jpeg,Pointing_Up,Pointing_Up,0.5324,True,MOVE FORWARD
+images-4.jpeg,Thumb_Down,Thumb_Down,0.9197,True,TURN LEFT
+images-5.jpeg,Thumb_Up,Thumb_Up,0.6793,True,TURN RIGHT
