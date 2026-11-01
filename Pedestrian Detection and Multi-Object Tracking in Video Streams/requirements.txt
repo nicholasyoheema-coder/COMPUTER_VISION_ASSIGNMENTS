@@ -1,0 +1,7 @@
+ultralytics==8.4.197
+motmetrics
+lap>=0.5.12
+numpy
+pandas
+opencv-python
+matplotlib

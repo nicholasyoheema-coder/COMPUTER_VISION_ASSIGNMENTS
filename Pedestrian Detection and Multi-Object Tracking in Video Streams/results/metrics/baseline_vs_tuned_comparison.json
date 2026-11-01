@@ -1,0 +1,30 @@
+[
+    {
+        "tracker":"Baseline_ByteTrack",
+        "detections":5060,
+        "unique_ids":113,
+        "MOTA":0.1850815349,
+        "IDF1":0.271815913,
+        "precision":0.8458498024,
+        "recall":0.2303428233,
+        "ID_switches":61,
+        "fragmentations":158,
+        "false_positives":780,
+        "misses":14301,
+        "MOTP":0.2039027638
+    },
+    {
+        "tracker":"Tuned_ByteTrack",
+        "detections":8263,
+        "unique_ids":148,
+        "MOTA":0.2402992304,
+        "IDF1":0.359409924,
+        "precision":0.7750211787,
+        "recall":0.3446531403,
+        "ID_switches":80,
+        "fragmentations":137,
+        "false_positives":1859,
+        "misses":12177,
+        "MOTP":0.2097306921
+    }
+]
